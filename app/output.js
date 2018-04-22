@@ -1,6 +1,6 @@
-let Breakdown =  function(text) {
-    let words = text.split(' ');
+let Breakdown =  function(str) {
+    let words = str.split(" ");
     return words;
 }
 
-module.exports.Breakdown = Breakdown;
+module.exports = Breakdown;
